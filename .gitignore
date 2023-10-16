@@ -1,0 +1,49 @@
+# .gitignore
+
+# Ignore Python build artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+
+# Ignore Python virtual environments
+venv/
+*.venv
+env/
+*.env
+
+# Ignore Node.js build artifacts
+node_modules/
+npm-debug.log
+
+# Ignore Docker build artifacts
+*.dockerignore
+**/Dockerfile*
+**/docker-compose*.yml
+
+# Ignore Kubernetes build artifacts
+**/*.kube
+
+# Ignore IDE and editor files
+.idea/
+*.swp
+*.swo
+*.swn
+.vscode/
+
+# Ignore Database files
+*.db
+*.sql
+
+# Ignore Log and temp files
+*.log
+*.tmp
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

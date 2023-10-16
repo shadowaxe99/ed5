@@ -1,0 +1,14 @@
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: business-management-tools-service
+spec:
+  selector:
+    app: business-management-tools
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 5000
+  type: LoadBalancer
+```
